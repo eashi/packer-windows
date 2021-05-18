@@ -8,7 +8,8 @@
         "./scripts/fixnetwork.ps1",
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
-        "./scripts/openssh.ps1"
+        "./scripts/openssh.ps1",
+        "./scripts/chocolatey.ps1"
       ],
       "guest_os_type": "windows8srv-64",
       "headless": "{{user `headless`}}",
@@ -38,7 +39,8 @@
         "./scripts/fixnetwork.ps1",
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
-        "./scripts/openssh.ps1"
+        "./scripts/openssh.ps1",
+        "./scripts/chocolatey.ps1"
       ],
       "guest_os_type": "Windows10_64",
       "headless": "{{user `headless`}}",
@@ -135,8 +137,7 @@
         "./scripts/disable-auto-logon.bat",
         "./scripts/enable-rdp.bat",
         "./scripts/compile-dotnet-assemblies.bat",
-        "./scripts/compact.bat",
-        "./scripts/chocolatey.ps1"
+        "./scripts/compact.bat"
       ],
       "type": "shell"
     }
